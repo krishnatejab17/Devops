@@ -15,3 +15,13 @@ git checkout -b master
 It will automatically copied all data from git master branch
 
 Now we can do changes in feature branch and merge them into master branch
+
+
+Now I created new branch called feature2 using the command:
+
+git checckout -b feature2
+
+and it will automatically copy all files in master branch.
+
+
+
