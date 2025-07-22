@@ -8,3 +8,10 @@ krishnatejab17
 and the password we should generate from Github token (classic)
 
 
+After that I created new branch under master
+
+git checkout -b master
+
+It will automatically copied all data from git master branch
+
+Now we can do changes in feature branch and merge them into master branch
