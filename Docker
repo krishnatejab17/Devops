@@ -1,0 +1,9 @@
+# Docker:
+Docker engine is only SPOF (single point of failure)
+
+To avoid this "Buildah" to create images 
+
+
+
+
+
