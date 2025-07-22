@@ -8,5 +8,24 @@ Dockerhub runs on root user so we need to create ubuntu user:
  sudo usermod -aG docker ubuntu
 
 
+#create new docker image:
+
+
+Login into AWS EC2
+create one directory (ex: docker_first)
+create file (hello_world.py) and use basic python code in it.
+create file name "Dockerfile"  exactly.
+In Dockerfile write docker code.
+Then create Docker image using (docker build -t hello-python-image .) command.  -t means tag name of image
+Run the container using (docker run imagename)
+Then you will get the outpiut
+
+#To push the image into your dockerhub:
+login into docker using (docker login -u username) (then password in  next line)
+enter docker images command
+You will get docker image id
+Then run docker tag <image-id> krishnatejab17/imagenameyouwant
+
+docker push krishnatejab17/imagenameyouwant
 
 
