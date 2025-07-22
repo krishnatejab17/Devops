@@ -4,6 +4,9 @@ Docker engine is only SPOF (single point of failure)
 To avoid this "Buildah" to create images 
 
 
+Dockerhub runs on root user so we need to create ubuntu user:
+ sudo usermod -aG docker ubuntu
+
 
 
 
