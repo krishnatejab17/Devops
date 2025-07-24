@@ -28,4 +28,14 @@ Then run docker tag <image-id> krishnatejab17/imagenameyouwant
 
 docker push krishnatejab17/imagenameyouwant
 
+#Docker Multistage build and Distoless images
+
+Using docker mutistage build we can reduce the size of docker image
+Entry point : we can not change the value (not a variable value)
+
+#using distoless images we can reduce size of image by 100 times
+Not only reducing size but also it can imorove security to docker file.
+We can not even run basic commands like ls,cd...
+
+
 
